@@ -1,5 +1,8 @@
 """An example of how to represent a group of acquaintances in Python."""
+import pandas as import pd
+Jill = {"Name" : "Jill", "Age" : "26", "Job" : "Biologist", "Connections" : ("Zalika's friend", "John's partner")}
+Zalika = {"Name" : "Zalika", "Age" : "28", "Job" : "Artist", "Connections" : "Jill's friend"}
+John = {"Name" : "John", "Age" : "27", "Job" : "Writer"}
+my_group = [Jill,Zalika,John,Nash]
 
-# Your code to go here...
-
-my_group =
+df = pd.DataFrame(data = my_group)
