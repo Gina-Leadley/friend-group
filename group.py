@@ -3,6 +3,8 @@ import pandas as pd
 Jill = {"Name" : "Jill", "Age" : "26", "Job" : "Biologist", "Connections" : ("Zalika's friend", "John's partner")}
 Zalika = {"Name" : "Zalika", "Age" : "28", "Job" : "Artist", "Connections" : "Jill's friend"}
 John = {"Name" : "John", "Age" : "27", "Job" : "Writer"}
+Nash ={"Name" : "Nash", "Age" : "24", "Job" : "Chef", "Connections" : ("John's cousin", "Zalika's landlord")}
+
 my_group = [Jill,Zalika,John,Nash]
 
 df = pd.DataFrame(data = my_group)
